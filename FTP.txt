@@ -1,0 +1,4 @@
+o8oNgYEkCRYW
+admin@12002476.pxl-ea-ict.be
+port:21
+host:student.pxl-ea-ict.be

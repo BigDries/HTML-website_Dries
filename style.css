@@ -1,0 +1,159 @@
+header {
+  background-color: rgb(54, 54, 54);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+.myself {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.uurrooster {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.css {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.WT {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.eigen_website {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.checklist {
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.info {
+    text-align: center;
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+      a:link {
+        color: rgb(0, 250, 196);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: rgb(0, 250, 196);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: rgb(20, 101, 194);
+        background-color: transparent;
+        text-decoration: underline;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+table, td {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: colapse;
+}
+
+.tabelhoofding{
+    text-align: center;
+    width: 25%;
+}
+
+table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: rgb(255, 255, 255);
+      box-sizing: border-box;
+      text-align: left;
+}
+.table-container {
+  position: relative;
+  max-height:  300px;
+  overflow: auto;
+  height: 500px;
+}
+
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: rgb(71, 71, 71);
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+
+tfoot {
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: 2;
+}
+
+tfoot td {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  background: hsl(0, 0%, 98%);
+}
+
+tfoot td:first-child {
+  z-index: 3;
+}
+
+tbody {
+  overflow: scroll;
+  height: 200px;
+}
+
+/* MAKE LEFT COLUMN FIXEZ */
+tr > :first-child {
+  position: -webkit-sticky;
+  position: sticky; 
+  left: 0; 
+  /* width: 10%; */
+}
+
+
